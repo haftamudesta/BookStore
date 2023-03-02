@@ -1,0 +1,40 @@
+body {
+  background: grey;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.nav__link {
+  margin-left: 40px;
+}
+
+.bookstore {
+  margin-right: 60px;
+  color: hsl(180, 89%, 33%);
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.books {
+  margin-right: 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.user {
+  margin-right: 40px;
+  color: rgb(17, 17, 175);
+}

@@ -1,0 +1,74 @@
+.book__list {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  margin-left: -70%;
+}
+
+.author {
+  margin-left: -70%;
+  margin-top: -10px;
+}
+
+.buttons {
+  margin-left: -75%;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin-right: 12px;
+  color: rgb(233, 28, 233);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form button {
+  margin-left: 80px;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  background: blue;
+  text-transform: uppercase;
+}
+
+.buttons button:hover {
+  background: brown;
+}
+
+.actionBtns {
+  border-right: 1px solid gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.form input {
+  height: 40px;
+}
+
+.form__title {
+  width: 500px;
+  text-transform: capitalize;
+}
+
+.form__author {
+  width: 300px;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+
+.form button:hover {
+  background: peru;
+  transition: 0.2s ease-in-out;
+}
