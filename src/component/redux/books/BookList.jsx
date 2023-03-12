@@ -12,10 +12,9 @@ const BookList = () => {
       <p>{book.author}</p>
       <button
         type="button"
+        className={classes.delete__btn}
         onClick={() => {
           dispatch(deleteBook(book.id));
-          console.log('clicked');
-          console.log('id', book.id);
         }}
       >
         Delte Book
