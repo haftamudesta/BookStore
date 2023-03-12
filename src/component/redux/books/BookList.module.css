@@ -1,0 +1,11 @@
+.book__list {
+  border: 2px solid gainsboro;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 6px;
+}
+
+.book__list h1,
+.book__list p {
+  margin-left: 5%;
+}

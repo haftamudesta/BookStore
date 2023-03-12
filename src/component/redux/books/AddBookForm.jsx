@@ -1,15 +1,16 @@
-import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { nanoid } from "@reduxjs/toolkit";
-import { bookAdded } from "./bookSlice";
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { nanoid } from '@reduxjs/toolkit';
+import { bookAdded } from './bookSlice';
+import classes from './AddBookForm.module.css';
 
 const AddBookForm = () => {
-  const [title, setTitle] = useState("");
-  const [author, setauthor] = useState("");
+  const [title, setTitle] = useState('');
+  const [author, setauthor] = useState('');
   const onTitleChanged = (e) => setTitle(e.target.value);
   const onauthorChanged = (e) => setauthor(e.target.value);
   const dispatch = useDispatch();
-  const onSavePostClicked = () => {
+  const onAddBookClicked = () => {
     if (title && author) {
       dispatch(
         bookAdded({
@@ -18,31 +19,35 @@ const AddBookForm = () => {
           author,
         })
       );
-      setTitle("");
-      setauthor("");
+      setTitle('');
+      setauthor('');
     }
   };
+  const canAdd = Boolean(title) && Boolean(author);
   return (
-    <section>
-      <h2>Add a new post</h2>
+    <section className={classes.form}>
+      <h2 className={classes.add__book}>Add a new book</h2>
       <form>
-        <label htmlFor="bookTitle">Book Title</label>
         <input
           type="text"
-          id="bookTitle"
-          name="bookTitle"
+          className={classes.book__title}
+          placeholder="Title"
           value={title}
           onChange={onTitleChanged}
         />
-        <label htmlFor="bookauthor">Book author</label>
         <input
           type="text"
-          id="bookauthor"
-          name="bookauthor"
+          className={classes.book__author}
+          placeholder="Author"
           value={author}
           onChange={onauthorChanged}
         />
-        <button type="button" onClick={onSavePostClicked}>
+        <button
+          type="button"
+          disabled={!canAdd}
+          className={classes.add__btn}
+          onClick={onAddBookClicked}
+        >
           Add Book
         </button>
       </form>

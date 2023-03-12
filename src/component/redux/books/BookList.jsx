@@ -1,12 +1,25 @@
-import { useSelector } from "react-redux";
-import { selectAllBooks } from "./bookSlice";
+import { useSelector } from 'react-redux';
+import { selectAllBooks, deleteBook } from './bookSlice';
+import { useDispatch } from 'react-redux';
+import classes from './BookList.module.css';
 
 const BookList = () => {
+  const dispatch = useDispatch();
   const books = useSelector(selectAllBooks);
   const renderBooks = books.map((book) => (
-    <article key={book.id}>
+    <article key={book.id} className={classes.book__list}>
       <h1>{book.title}</h1>
       <p>{book.author}</p>
+      <button
+        type="button"
+        onClick={() => {
+          dispatch(deleteBook(book.id));
+          console.log('clicked');
+          console.log('id', book.id);
+        }}
+      >
+        Delte Book
+      </button>
     </article>
   ));
 
