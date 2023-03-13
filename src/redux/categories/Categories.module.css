@@ -1,0 +1,26 @@
+.check__btn {
+  width: 150px;
+  background: #0290ff;
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid gray;
+}
+
+.check__btn:hover {
+  background: rgb(158, 181, 114);
+}
+
+.status {
+  background: #fff;
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 100px;
+  text-align: center;
+  color: rgb(212, 148, 69);
+}
+
+.status:hover {
+  background: rgb(195, 111, 195);
+}

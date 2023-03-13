@@ -1,0 +1,15 @@
+.header {
+  background: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100px;
+  padding-top: 50px;
+  color: rgb(142, 142, 24);
+  text-align: center;
+  font-weight: 400;
+}
+
+.header:hover {
+  background: violet;
+  transition: 0.5s ease-in-out;
+}
