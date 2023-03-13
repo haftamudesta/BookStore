@@ -1,11 +1,9 @@
-import classes from './Categories.module.css';
+import CategoriesContent from './redux/categories/Categories';
 
 const Categories = () => {
   return (
     <div>
-      <button type="submit" className={classes.checkBtn}>
-        Check status
-      </button>
+      <CategoriesContent />
     </div>
   );
 };

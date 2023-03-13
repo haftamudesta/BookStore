@@ -1,8 +1,10 @@
 .book__list {
   border: 2px solid gainsboro;
+  margin-top: 12px;
+  margin-bottom: 12px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 6px;
+  background: #fff;
 }
 
 .book__list h1,

@@ -28,6 +28,7 @@
     "no-eval": "off",
     "operator-linebreak": "off",
     "react/jsx-key": "off",
+    "no-param-reassign": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": ["dist/", "build/"]

@@ -1,6 +1,5 @@
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { selectAllBooks, deleteBook } from './bookSlice';
-import { useDispatch } from 'react-redux';
 import classes from './BookList.module.css';
 
 const BookList = () => {
@@ -22,12 +21,7 @@ const BookList = () => {
     </article>
   ));
 
-  return (
-    <section>
-      <h1>books</h1>
-      {renderBooks}
-    </section>
-  );
+  return <section>{renderBooks}</section>;
 };
 
 export default BookList;
