@@ -1,4 +1,4 @@
-import CategoriesContent from './redux/categories/Categories';
+import CategoriesContent from '../redux/categories/Categories';
 
 const Categories = () => {
   return (

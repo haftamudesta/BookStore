@@ -1,5 +1,5 @@
-import AddBookForm from './redux/books/AddBookForm';
-import BookList from './redux/books/BookList';
+import AddBookForm from '../redux/books/AddBookForm';
+import BookList from '../redux/books/BookList';
 
 const Books = () => {
   return (
