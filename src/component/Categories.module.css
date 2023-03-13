@@ -1,0 +1,11 @@
+.checkBtn {
+  margin-top: 20px;
+  background: rgb(123, 188, 123);
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.checkBtn:hover {
+  background: rgb(181, 137, 181);
+  transition: 0.2s ease-in-out;
+}

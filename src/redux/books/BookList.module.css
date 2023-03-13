@@ -1,0 +1,30 @@
+.book__list {
+  border: 2px solid gainsboro;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #fff;
+}
+
+.book__list h1,
+.book__list p {
+  margin-left: 5%;
+}
+
+.book__list h1 {
+  color: #121212;
+}
+
+.book__list p {
+  color: #4386bf;
+}
+
+.delete__btn {
+  margin-bottom: 12px;
+  color: #4386bf;
+  margin-left: 5%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
