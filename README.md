@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Bookstore setup</b></h3>
+  <h3><b>Bookstore add Reducer and Action</b></h3>
 </div>
 
 # 📗 Table of Contents

@@ -4,6 +4,7 @@ import classes from './Categories.module.css';
 
 const CategoriesContent = () => {
   const categories = useSelector((state) => state.categories);
+  console.log(categories);
   const dispatch = useDispatch();
   return (
     <div>
