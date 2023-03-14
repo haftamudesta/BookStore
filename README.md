@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Bookstore add Reducer and Action</b></h3>
+  <h3><b>Bookstore  redux in react</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 BookStore <a name="about-project"></a>
 
-**Math magicians** Bookstore is a simple website that displays a list of books and allows you to:
+**BookStore** Bookstore is a simple website that displays a list of books and allows you to:
 
 > Display a list of books
 > Add a book
@@ -65,7 +65,6 @@
 - **Add books**
 - **Remove books**
 - **Add comments**
-- **Edit Books**
 - <p align="right">
   (<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +103,7 @@ This one will install Stylelint:
 
 ### Usage
 
-To run the project,clone the project from https://github.com/haftamudesta/Math-Magicians
+To run the project,clone the project https://github.com/haftamudesta/BookStore
 
 > use the command git checkout component to go to the component dirctory
 > to create react use npm create vite@latest -- --template react
@@ -123,8 +122,8 @@ To run the project,clone the project from https://github.com/haftamudesta/Math-M
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] **Make simple calculation**
-- [] **Read a random math-related quote**
+- [] **Add books**
+- [] **Connect to API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
