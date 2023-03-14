@@ -29,7 +29,7 @@
 
 # 📖 BookStore <a name="about-project"></a>
 
-**BookStore** Bookstore is a simple website that displays a list of books and allows you to:
+**BookStore** is a simple website that displays a list of books and allows you to:
 
 > Display a list of books
 > Add a book
