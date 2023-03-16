@@ -13,9 +13,9 @@ const fetchBooks = createAsyncThunk(BOOKFETCH, async () => {
   const res = await fetch(fullURL);
   const data = await res.json();
   // eslint-disable-next-line camelcase
-  const books = Object.keys(data).map((item_id) => ({
-    item_id,
-    ...data[item_id][0],
+  const books = Object.keys(data).map((itemid) => ({
+    itemid,
+    ...data[itemid][0],
   }));
   return books;
 });
