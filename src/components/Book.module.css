@@ -4,10 +4,13 @@
 }
 
 .books {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   background: #fff;
   border: 2px solid gainsboro;
   margin-bottom: 25px;
+  margin-right: 3%;
 }
 
 .book__list h2 {
@@ -18,28 +21,39 @@
 
 .book__author {
   color: #4386bf;
-  text-transform: capitalize;
-  margin-right: 20px;
+  background: #fff;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
   font-family: RobotoSlab, sans-serif;
-  margin-left: 24px;
 }
 
 .book__categories {
   color: #121212;
   text-transform: capitalize;
   margin-right: 20px;
-  margin-left: 24px;
+  margin-left: 20px;
   opacity: 0.5;
-  font-family: Montserrat, sans-serif;
+  font-family: RobotoSlab, sans-serif;
 }
 
-.comment__btns,
+.comment__btns {
+  color: #4386bf;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: RobotoSlab, sans-serif;
+  border-right: 1px solid gray;
+}
+
 .remove__btns {
   color: #4386bf;
   background: #fff;
   border: none;
   cursor: pointer;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-family: RobotoSlab, sans-serif;
   border-right: 1px solid gray;
 }
@@ -51,4 +65,53 @@
   font-family: RobotoSlab, sans-serif;
   cursor: pointer;
   margin-bottom: 12px;
+}
+
+.middle__section {
+  display: flex;
+  align-items: center;
+}
+
+.react__icon {
+  color: #4386bf;
+  font-size: 40px;
+}
+
+.middle__section_left {
+  margin-left: 20px;
+}
+
+.completed {
+  margin-top: -12px;
+}
+
+.right__section {
+  margin-right: 80px;
+}
+
+.current__chapter {
+  color: #121212;
+  width: 7.875rem;
+  height: 1.125rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.update__btn {
+  background: #0290ff;
+  color: #fff;
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-left: -1px;
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-left: 3%;
+  margin-right: 3%;
 }
 
 .add_book {
@@ -30,17 +31,16 @@
 
 .categories {
   height: 30px;
-  margin-right: 60px;
+  margin-right: 40px;
   width: 25%;
 }
 
 .submit__btn {
-  width: 110px;
-  height: 40px;
-  border-radius: 5px;
+  width: 11.5rem;
+  height: 35px;
+  padding: 0.786rem 1.188rem 0.686rem 1.375rem;
+  border-radius: 3px;
   background: #0290ff;
-  padding-left: 20px;
-  padding-right: 20px;
   color: #fff;
 }
 

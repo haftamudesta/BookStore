@@ -1,6 +1,7 @@
 .nav__bar {
   display: flex;
   margin-left: 3%;
+  margin-right: 3%;
   justify-content: space-between;
 }
 
