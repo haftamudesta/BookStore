@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 BookStore <a name="about-project"></a>
 
-**Math magicians** Bookstore is a simple website that displays a list of books and allows you to:
+**BookSore** is a simple website that displays a list of books and allows you to:
 
 > Display a list of books
 > Add a book
@@ -88,7 +88,12 @@
 
 ### Setup
 
-Clone this repository to your desired folder
+Clone this repository to your desired folder.
+To clone the project use:
+-git clone https://github.com/haftamudesta/BookStore
+
+Then go to folder BookStore by using the command:
+-cd BookStore
 
 ### Install
 
@@ -129,7 +134,7 @@ To run the project,clone the project from https://github.com/haftamudesta/Math-M
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
