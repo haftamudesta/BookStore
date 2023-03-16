@@ -1,0 +1,32 @@
+.nav__bar {
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+.nav__bar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  margin-left: -600px;
+}
+
+.nav__bar ul li {
+  margin-left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bookstore {
+  margin-right: 60px;
+  color: hsl(180, 89%, 33%);
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.user {
+  margin-right: 40px;
+  color: rgb(17, 17, 175);
+}

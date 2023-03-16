@@ -1,0 +1,33 @@
+.form {
+  margin-left: 5%;
+  background: #fff;
+}
+
+.title {
+  height: 30px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.author {
+  height: 30px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.categories {
+  height: 30px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.submit__btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(54, 54, 226);
+}
+
+.submit__btn:hover {
+  background: rgb(200, 42, 95);
+}
