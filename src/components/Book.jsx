@@ -62,7 +62,11 @@ const Book = (props) => {
         </div>
       </div>
       <div className={classes.right__section}>
-        <h1 className={classes.current__chapter}>current chapter</h1>
+        <h1 className={classes.current__chapter}>
+          current
+          <span>&nbsp;</span>
+          chapter
+        </h1>
         <p>
           Chapter
           <span>&nbsp; &nbsp;</span>
