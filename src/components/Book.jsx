@@ -18,19 +18,19 @@ const Book = (props) => {
       <div className={classes.book__list}>
         <h3 className={classes.book__categories}>{category}</h3>
         <h2>{title}</h2>
-        <h3 className={classes.book__categories}>{author}</h3>
+        <h3 className={classes.book__author}>{author}</h3>
       </div>
-      <button type="button" className={classes.action__btns}>
+      <button type="button" className={classes.comment__btns}>
         Comments
       </button>
       <button
         type="button"
         onClick={removeBook}
-        className={classes.action__btns}
+        className={classes.remove__btns}
       >
         Remove
       </button>
-      <button type="button" className={classes.action__btns}>
+      <button type="button" className={classes.edit__btns}>
         Edit
       </button>
     </li>

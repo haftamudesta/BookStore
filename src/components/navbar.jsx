@@ -24,7 +24,9 @@ const SiteNavbar = () => {
           {links.map((nlink) => (
             // eslint-disable-next-line
             <li key={nlink.id} className={'li' + nlink.id.toString()}>
-              <NavLink to={nlink.path}>{nlink.Text}</NavLink>
+              <NavLink to={nlink.path} className={classes.navlinks}>
+                {nlink.Text}
+              </NavLink>
             </li>
           ))}
         </ul>

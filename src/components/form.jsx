@@ -15,25 +15,30 @@ const Form = () => {
   };
   return (
     <form onSubmit={handleSubmit(submitBook)} className={classes.form}>
-      <input
-        type="text"
-        className={classes.title}
-        {...register('title', { required: true })}
-        placeholder="Book title"
-      />
-      <input
-        type="text"
-        className={classes.author}
-        {...register('author', { required: true })}
-        placeholder="Author"
-      />
-      <input
-        type="text"
-        className={classes.categories}
-        {...register('category', { required: true })}
-        placeholder="Category"
-      />
-      <input type="submit" value="Submit" className={classes.submit__btn} />
+      <div>
+        <h1 className={classes.add_book}>Add new book</h1>
+      </div>
+      <div className={classes.inputs}>
+        <input
+          type="text"
+          className={classes.title}
+          {...register('title', { required: true })}
+          placeholder="Book title"
+        />
+        <input
+          type="text"
+          className={classes.author}
+          {...register('author', { required: true })}
+          placeholder="Author"
+        />
+        <input
+          type="text"
+          className={classes.categories}
+          {...register('category', { required: true })}
+          placeholder="Category"
+        />
+        <input type="submit" value="Submit" className={classes.submit__btn} />
+      </div>
     </form>
   );
 };

@@ -1,6 +1,6 @@
 .nav__bar {
   display: flex;
-  margin-left: 5%;
+  margin-left: 3%;
   justify-content: space-between;
 }
 
@@ -15,18 +15,32 @@
 .nav__bar ul li {
   margin-left: 30px;
   cursor: pointer;
+  width: 6.563rem;
+  height: 1rem;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+}
+
+.navlinks {
   text-decoration: none;
+  color: #121212;
+  font-family: Montserrat, sans-serif;
 }
 
 .bookstore {
   margin-right: 60px;
-  color: hsl(180, 89%, 33%);
+  color: #0290ff;
   font-weight: 700;
+  font-family: Montserrat, sans-serif;
   font-size: 30px;
   text-decoration: none;
 }
 
 .user {
-  margin-right: 40px;
   color: rgb(17, 17, 175);
 }

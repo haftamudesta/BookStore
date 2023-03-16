@@ -1,31 +1,47 @@
 .form {
-  margin-left: 5%;
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+
+.add_book {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  color: #888;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
   height: 30px;
-  margin-right: 20px;
+  margin-right: 50px;
   width: 25%;
 }
 
 .author {
   height: 30px;
-  margin-right: 20px;
+  margin-right: 50px;
   width: 25%;
 }
 
 .categories {
   height: 30px;
-  margin-right: 20px;
+  margin-right: 60px;
   width: 25%;
 }
 
 .submit__btn {
-  width: 100px;
+  width: 110px;
   height: 40px;
   border-radius: 5px;
-  background: rgb(54, 54, 226);
+  background: #0290ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
 }
 
 .submit__btn:hover {
