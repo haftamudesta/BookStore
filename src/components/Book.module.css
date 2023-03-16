@@ -1,0 +1,33 @@
+.book__list {
+  border: 2px solid gainsboro;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #fff;
+}
+
+.books {
+  list-style: none;
+}
+
+.book__list h2 {
+  color: #121212;
+  margin-left: 20px;
+}
+
+.book__categories {
+  color: #4386bf;
+  text-transform: capitalize;
+  margin-right: 20px;
+  margin-left: 24px;
+}
+
+.action__btns {
+  margin-bottom: 12px;
+  color: #4386bf;
+  margin-left: 5%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
