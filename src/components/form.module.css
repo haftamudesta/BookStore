@@ -42,6 +42,8 @@
   border-radius: 3px;
   background: #0290ff;
   color: #fff;
+  border: none;
+  border-radius: 3px;
 }
 
 .submit__btn:hover {

@@ -32,7 +32,9 @@ const Book = (props) => {
           <div className={classes.book__list}>
             <h3 className={classes.book__categories}>{category}</h3>
             <h2>{title}</h2>
-            <p className={classes.book__author}>{author}</p>
+            <button type="button" className={classes.book__author}>
+              {author}
+            </button>
           </div>
           <button type="button" className={classes.comment__btns}>
             Comments
