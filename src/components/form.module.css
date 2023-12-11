@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.add_book {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  color: #888;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  height: 30px;
+  margin-right: 50px;
+  width: 25%;
+}
+
+.author {
+  height: 30px;
+  margin-right: 50px;
+  width: 25%;
+}
+
+.categories {
+  height: 30px;
+  margin-right: 40px;
+  width: 25%;
+}
+
+.submit__btn {
+  width: 11.5rem;
+  height: 35px;
+  padding: 0.786rem 1.188rem 0.686rem 1.375rem;
+  border-radius: 3px;
+  background: #0290ff;
+  color: #fff;
+  border: none;
+}
+
+.submit__btn:hover {
+  background: rgb(200, 42, 95);
+}
