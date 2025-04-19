@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Bookstore <a name="about-project"></a>
 
-**Math magicians** Bookstore is a simple website that displays a list of books and allows you to:
+**Bookstore** is a simple website that displays a list of books and allows you to:
 
 > Display a list of books
 > Add a book
